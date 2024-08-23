@@ -1,0 +1,28 @@
+/*Header*/
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:  sans-serif;}
+
+header{
+    height:100px;
+    background-color: white;
+    color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#playbutton{
+    margin-right: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#playbutton:hover{
+    background-color: rgb(55, 224, 83);
+    padding: 10px 15px;
+}
+
+body{background-color: aquamarine;}
+
